@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         reverseChronometer = findViewById(R.id.rvcTime);
         reverseChronometer.setOverallTime(120);
+        reverseChronometer.setWarningTime(10);
         reverseChronometer.setText("Valor inicial: 120");
     }
 
